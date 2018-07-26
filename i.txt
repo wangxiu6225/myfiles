@@ -1,1 +1,10 @@
 i am tired!!!
+
+我的远程github地址：
+https://github.com/wangxiu6225/myfiles.git
+
+获取：git pull
+提交：git add .
+     git commit -m 'message'
+     git push
+     git status
