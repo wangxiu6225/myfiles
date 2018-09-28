@@ -33,4 +33,4 @@ wangxiu6225
 ----3.仓库地址HTTPS：https://github.com/wangxiu6225/test.git
 ----3.仓库地址SSH：git@github.com:wangxiu6225/test.git
 
------使用vsCode +github
+-----使用vsCode +github,打开git本地仓库文件夹目录，可选择编辑文件，缓存，提交，推送；
