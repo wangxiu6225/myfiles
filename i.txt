@@ -1,4 +1,4 @@
-i am tired!!!
+﻿i am tired!!!
 
 我的远程github地址：
 https://github.com/wangxiu6225/myfiles.git
@@ -8,3 +8,6 @@ https://github.com/wangxiu6225/myfiles.git
      git commit -m 'message'
      git push
      git status
+
+
+i am back;
