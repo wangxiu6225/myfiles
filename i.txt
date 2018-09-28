@@ -5,9 +5,9 @@ https://github.com/wangxiu6225/myfiles.git
 
 获取：git pull
 提交：git add .
-     git commit -m 'message'
-     git push
-     git status
+     git commit -m 'message'(仅相当于提交到本地库去，并没有提交到github上去)
+     git push（相当于提交到github上）
+     git status(查看本地库是否有未提交的文件)
 
 
 i am back;
