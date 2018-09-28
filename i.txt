@@ -34,3 +34,8 @@ wangxiu6225
 ----3.仓库地址SSH：git@github.com:wangxiu6225/test.git
 
 -----使用vsCode +github,打开git本地仓库文件夹目录，可选择编辑文件，缓存，提交，推送；
+
+----node.js 的使用
+1. 使用cmd命令进入到nodejs安装目录下,可使用node xxx.js开户终端服务；也可以输入node回车在启动终端，进行repl交互式解释器编辑；
+2.node函数回调:非阻塞线程，异步回调，非阻塞线程。
+3.事件循环。
