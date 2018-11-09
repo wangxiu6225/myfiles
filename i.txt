@@ -1,4 +1,4 @@
-﻿i am tired!!!
+i am tired!!!
 
 我的远程github地址：
 https://github.com/wangxiu6225/myfiles.git
@@ -10,10 +10,45 @@ https://github.com/wangxiu6225/myfiles.git
      git status(查看本地库是否有未提交的文件,并不是查看是否有未提交到github上的文件)
 
 
-i am back;
-我是王秀；
+--在本地的文件夹为NewRepo，与远程仓库名称不一样；将之前的git pull origin master修改为一下代码
+git pull origin master --allow-unrelated-histories
+
 
 
 wangxiu6225
 1297191828@qq.com
 626225wangxiu
+-----------------------------------------------
+
+关联git远程库 ，首先你要在github创建一个仓库
+$ git remote add origin git@github.com:manymore13/manymore13.git
+
+关联后，远程库的名字就是origin，这是Git默认的叫法
+
+把本地库的内容推送到远程，用git push命令，实际上是把当前分支master推送到远程。
+$ git push -u origin master
+
+由于远程库是空的，我们第一次推送master分支时，加上了-u参数，Git不但会把本地的master分支内容推送至远程新的master分支，还会把本地的master分支和远程的master分支关联起来，在以后的推送或者拉取时就可以简化命令。以后可以直接 
+
+$ git push origin master 即可推送。
+
+创建，切换，查看分支
+创建分支
+$ git branch newbrance
+
+   查看当前分支
+$ git branch
+* master
+  newbrance
+git branch  命令会列出所有分支，当前分支前面会标一个*号。
+
+
+
+切换分支
+$ git checkout newbrance
+Switched to branch 'newbrance'
+
+$ git branch
+  master
+* newbrance
+
