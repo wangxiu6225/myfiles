@@ -17,7 +17,7 @@ git pull origin master --allow-unrelated-histories
 
 wangxiu6225
 1297191828@qq.com
-626225wangxiu
+626225wangxiu修改为626225Wx
 -----------------------------------------------
 
 关联git远程库 ，首先你要在github创建一个仓库
